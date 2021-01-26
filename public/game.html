@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="onInit()">
+
+    <div class="gameScreen">
+        <div class="players">
+            <!-- <div class="playersWrapper"> -->
+            <div class="player__profile">
+                <div class="player__profile--white">
+                    <img src="https://thumbs.dreamstime.com/b/default-avatar-profile-image-vector-social-media-user-icon-potrait-182347582.jpg">
+                    <h3>reem</h3>
+                    <h5>white</h5>
+                </div>
+                vs
+                <div class="player__profile--black">
+                    <img src="https://thumbs.dreamstime.com/b/default-avatar-profile-image-vector-social-media-user-icon-potrait-182347582.jpg">
+                    <h3>cherut</h3>
+                    <h5>black</h5>
+                </div>
+            </div>
+            <div class="turn">black turn</div>
+        </div>
+        <div class="wrapper">
+            <div id="root"></div>
+            <div class="columnsNumbers">
+                <div class="number"></div>
+                <div class="number">a</div>
+                <div class="number">b</div>
+                <div class="number">c</div>
+                <div class="number">d</div>
+                <div class="number">e</div>
+                <div class="number">f</div>
+                <div class="number">g</div>
+                <div class="number">h</div>
+            </div>
+            <div class="rowLetters">
+                <div class="letter">1</div>
+                <div class="letter">2</div>
+                <div class="letter">3</div>
+                <div class="letter">4</div>
+                <div class="letter">5</div>
+                <div class="letter">6</div>
+                <div class="letter">7</div>
+                <div class="letter">8</div>
+            </div>
+        </div>
+
+        <div class="outOfGamePieces">
+            <div class="outOfGamePieces__black">black</div>
+            <div class="outOfGamePieces__white">white</div>
+        </div>
+    </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    
+    <script src="./pieceArr.js"></script>
+    <!-- <script src="./movements.js"></script>
+    <script src="./optionalMovement.js"></script> -->
+    <script src="./optionalMovements.js"></script>
+    <script src="./movementAuthenttication.js"></script>
+    <script src="script.js"></script>
+    <script src="./index.js"></script>
+    
+    
+    
+
+</body>
+
+</html>

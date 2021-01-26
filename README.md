@@ -1,0 +1,5 @@
+\*\* CHESS PROJECT
+
+- [x] - Please create config.env file with DATABASE=[PLACE_YOUR_DATABASE]
+    DATABASE_LOCAL=[PLACE_YOUR_LOCAL_DATABASE]
+    PORT=[PLACE_YOUR_PORT]
