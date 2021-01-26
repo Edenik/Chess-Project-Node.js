@@ -31,8 +31,7 @@ mongoose
   .then(() => console.log("DB CONNECTION SUCCESSFUL"))
   .catch((err) => console.log(err));
 
-//model
-
+// use routes
 app.use("/users", userRouter);
 
 //socket
